@@ -47,11 +47,15 @@ This is a simple blog application built using **Next.js**, **GraphQL**, and **Ap
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Affan-Moiz/NextjsBlogWithGraphQL.git
-   cd blog-app
+   cd NextjsBlogWithGraphQL
    ```
 
 2. **Install dependencies**:
    ```bash
+   cd blog-app
+   npm install
+   cd ..
+   cd blog-backend
    npm install
    ```
 
