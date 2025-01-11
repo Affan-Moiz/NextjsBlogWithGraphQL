@@ -46,7 +46,7 @@ This is a simple blog application built using **Next.js**, **GraphQL**, and **Ap
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Affan-Moiz/NextjsBlogWithGraphQL.git
    cd blog-app
    ```
 
@@ -58,7 +58,7 @@ This is a simple blog application built using **Next.js**, **GraphQL**, and **Ap
 3. **Run the GraphQL backend**:
    - Navigate to the backend directory:
      ```bash
-     cd App
+     cd blog-backend
      ```
    - Start the backend server:
      ```bash
@@ -67,9 +67,9 @@ This is a simple blog application built using **Next.js**, **GraphQL**, and **Ap
    - The backend will run at `http://localhost:4000/`.
 
 4. **Start the Next.js frontend**:
-   - Navigate back to the main project directory:
+   - Navigate back to the frontend project directory:
      ```bash
-     cd ..
+     cd ../blog-app
      ```
    - Start the frontend development server:
      ```bash
@@ -135,6 +135,22 @@ This is a simple blog application built using **Next.js**, **GraphQL**, and **Ap
 7. **Well-documented code**:
    - The code is well-commented and easy to understand.
    - This README file provides clear instructions for setting up and running the project locally.
+
+---
+
+## **Folder Structure**
+
+The main folder contains two subfolders:
+
+1. **`blog-app`**: Contains the Next.js frontend code.
+2. **`blog-backend`**: Contains the Node.js backend code with Apollo Server.
+
+---
+
+## **Repository**
+
+The GitHub repository for this project is available at:  
+[https://github.com/Affan-Moiz/NextjsBlogWithGraphQL.git](https://github.com/Affan-Moiz/NextjsBlogWithGraphQL.git)
 
 ---
 
