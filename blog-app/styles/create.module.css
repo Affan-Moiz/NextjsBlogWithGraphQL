@@ -1,0 +1,116 @@
+/* styles/create.module.css */
+
+/* Outer background behind the form */
+.outerContainer {
+    background-color: #924b52; /* Maroon background */
+    padding: 0; /* Remove padding to ensure proper centering */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 43px;
+  }
+  
+  /* Container for the form */
+  .container {
+    max-width: 700px;
+    width: 100%;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #5e1f28; /* Slightly darker maroon border */
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4b1e24; /* Dark maroon for the form header */
+  }
+  
+  /* Description below the header */
+  .description {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Form group styling */
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #4b1e24; /* Maroon color for labels */
+  }
+  
+  /* Input and textarea styling */
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Change border color and add shadow on focus */
+  .input:focus,
+  .textarea:focus {
+    border-color: #7a2c34;
+    box-shadow: 0 0 5px rgba(122, 44, 52, 0.3);
+    outline: none;
+  }
+  
+  /* Error input styling */
+  .errorInput {
+    border-color: red;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  /* Submit button styling */
+  .button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #7a2c34; /* Maroon button color */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid #5e1f28; /* Slightly darker maroon border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  .button:hover {
+    background-color: #5e1f28;
+    transform: scale(1.05); /* Slight pop-out effect on hover */
+  }
+  
+  /* Disabled button styling */
+  .button:disabled {
+    background-color: #ccc;
+    color: #888;
+    border: 1px solid #ddd;
+    cursor: not-allowed;
+  }
+  

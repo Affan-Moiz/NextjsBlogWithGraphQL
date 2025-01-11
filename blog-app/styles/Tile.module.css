@@ -1,0 +1,47 @@
+/* styles/Tile.module.css */
+
+/* Tile container with rounded border and shadow */
+.tile {
+    background-color: #ffffff;
+    border: 1px solid #7a2c34; /* Maroon border to match the theme */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(122, 44, 52, 0.1); /* Soft maroon shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* Tile hover effect with maroon shadow */
+  .tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(122, 44, 52, 0.2);
+  }
+  
+  /* Title inside the tile */
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #7a2c34; /* Maroon title color */
+    transition: color 0.3s ease;
+  }
+  
+  /* Title hover effect */
+  .tile:hover .title {
+    color: #5e1f28; /* Darker maroon on hover */
+  }
+  
+  /* Author and date styles */
+  .author {
+    font-size: 1rem;
+    color: #4b1e24; /* Dark maroon for author */
+    margin-bottom: 5px;
+  }
+  
+  /* Date styling */
+  .date {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  

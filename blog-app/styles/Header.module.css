@@ -1,0 +1,43 @@
+/* styles/Header.module.css */
+
+/* Header container with a lighter maroon background */
+.header {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #7a2c34; /* Lighter maroon */
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navigation container */
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Link styling */
+  .navLink {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: transform 0.2s ease, background-color 0.3s ease, font-weight 0.2s ease;
+  }
+  
+  /* Hover effect with bold white text and pop-out animation */
+  .navLink:hover {
+    color: #ffffff;
+    font-weight: 700; /* Increased boldness on hover */
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.2); /* Pop-out effect */
+  }
+  
+  /* Active link styling */
+  .active {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+  }
+  
